@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+
+h1, h2{
+    color: rgb(18, 86, 88);
+    text-align: center;
+}
+/* Style to make the buttons seprate for good UX and UI */
+.buttonCont{
+    margin: 120px;
+    display: flex;
+}
+
+#natureButton{
+    color: darkgreen;
+}
+/* Added style to the button makes the buttons look and pop out */
+button{
+    cursor: pointer;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 15px;
+    margin: auto;
+}
+/* Added style to the animals button */
+#animalButton{
+    color: burlywood;
+}
+/* Added a hover style when the user hovers over the button the button will chnage colors */
+button:hover{
+    background-color: aqua;
+}
+
+
+/* Styles the photos */
+#phtoAlbum img{
+    /* Make the photos appear in a up down motion */
+    display: block; 
+    /* Fills up the screen to make sure the user gets the best UI */
+    max-width: 90%;
+    /* The browser automatically adjust the height based on screen size */
+    height: auto;
+    /* Sets up the margin to have space between each picture */
+    margin: 22px 45px; 
+}
