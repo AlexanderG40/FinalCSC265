@@ -1,3 +1,4 @@
+// This event listener known as "DOMContentLoaded" runs after the DOM is finished loaded it is made to not make the website or browser crash
 document.addEventListener('DOMContentLoaded', function() {
     var animalButton = document.getElementById("animalButton");
     var natureButton = document.getElementById("natureButton");
